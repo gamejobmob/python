@@ -9,7 +9,7 @@ while 조건 :
 
 #count 줄여서 cnt
 
-cnt = 0
-while cnt < 1000 :
-    print("안녕하세요")
+cnt = 10
+while cnt <= 20:
+    print("%d" %(cnt), end =" ")
     cnt = cnt + 1
